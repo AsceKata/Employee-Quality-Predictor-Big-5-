@@ -21,7 +21,7 @@ Flask
 
 - [Big Five personality traits](https://en.wikipedia.org/wiki/Big_Five_personality_traits)
 
--[OCEAN Image](https://www.thomas.co/sites/default/files/uploads/What%20Are%20The%20Big%205%20Personality%20Traits.jpg)
+- [OCEAN Image](https://www.thomas.co/sites/default/files/uploads/What%20Are%20The%20Big%205%20Personality%20Traits.jpg)
 
 - [IPIP Open-Source Website](https://ipip.ori.org/new_ipip-50-item-scale.htm)
 
