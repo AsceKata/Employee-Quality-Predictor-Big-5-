@@ -16,3 +16,10 @@ Matplotlib
 Seaborn
 Scikit-learn
 Flask
+# Sources
+[Big 5 Kaggle Dataset Download Link](https://www.kaggle.com/tunguz/big-five-personality-test)
+[Big Five personality traits](https://en.wikipedia.org/wiki/Big_Five_personality_traits)
+[OCEAN Image](https://www.thomas.co/sites/default/files/uploads/What%20Are%20The%20Big%205%20Personality%20Traits.jpg)
+[IPIP Open-Source Website](https://ipip.ori.org/new_ipip-50-item-scale.htm)
+[Anacoda](https://www.anaconda.com/)
+[Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
