@@ -1,0 +1,110 @@
+<!doctype html>
+<title>HR Personality Classifier</title>
+<style>
+aside {
+  width: 40%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  background-color: #E0E0BC;
+}
+</style>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<section>
+  <aside>
+<table style="width:100%">
+ <tr>
+    <th  rowspan="2">Job Name</th>
+    <th colspan="5">Min. Score </th>
+
+  </tr>
+    <tr>
+
+    <td>Extroversion</td>
+    <td>Agreeableness</td>
+    <td>Conscientiousness</td>
+    <td>Neuroticism</td>
+    <td>Openness</td>
+  </tr>
+  <tr>
+    <td>AI Engineer</td>
+    <td>2.1</td>
+    <td>2.7</td>
+    <td>3.1</td>
+    <td>2.6</td>
+    <td>3.1</td>
+  </tr>
+  <tr>
+    <td>Project Manager</td>
+    <td> 3.4</td>
+    <td>3.1</td>
+    <td>3.2</td>
+    <td>2.3</td>
+    <td>2.3</td>
+  </tr>
+    <tr>
+    <td>Web Developer</td>
+    <td> 2.1</td>
+    <td>2.0</td>
+    <td>3.2</td>
+    <td>2.5</td>
+    <td>3.0</td>
+  </tr>
+    <tr>
+    <td>Sales manager</td>
+    <td>3.4</td>
+    <td>3.3</td>
+    <td>3.4</td>
+    <td>3.1</td>
+    <td>2.6</td>
+    </tr>
+      <tr>
+    <td>Marketing</td>
+    <td>3.5</td>
+    <td>3.5</td>
+    <td>2.5</td>
+    <td>3.3</td>
+    <td>2.8</td>
+    </tr>
+      <tr>
+    <td>Supervisor</td>
+    <td>3.1</td>
+    <td>3.5</td>
+    <td>3.1</td>
+    <td>3.2</td>
+    <td>3.0</td>
+  </tr>
+    <tr>
+    <td>Receptionist</td>
+    <td>2.8</td>
+    <td>3.2</td>
+    <td>3.3</td>
+    <td>3.4</td>
+    <td>2.5</td>
+  </tr>
+</table>
+
+    <button onclick="myFunction()">Acceptance Status</button>
+    <div id="myDIV" Style="display:none">
+
+  <h4> The job selected was <i> {{ key1 }} </i> </h4>
+  <h5> Job Status : {{ key3 }} </i> </h5>
+
+  </div>
+
+</aside>
+  <h2>Your Result</h2>
+  <img src="data:image/png;base64, {{ plot_url }}">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</section>
+</html>
